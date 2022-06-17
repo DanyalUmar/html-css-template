@@ -1,0 +1,155 @@
+/* All Body Styling Start */
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;  
+    color: white;
+}
+a:hover{
+    color: #61DAFB;
+}
+.container{
+    max-width: 1140px;
+}
+.container-fulid{
+    width: 100%;
+}
+.hero-content{
+    color: #222222 ;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace; 
+    padding-top: 220px;
+}
+/* All Body Styling End */
+
+/* Header Styling Start */
+.main-div{
+    background-color: #222222 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.header-logo{
+    width: 20%;
+}
+.navbar{
+    width: 60%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li{
+    padding-right: 10px;
+}
+.header-btn{
+    width: 20%;
+}
+.search-btn{
+    color: #61DAFB;
+    background-color: #222222 ;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;   
+}
+/* Header Styling End */
+
+/* Main Section Start */
+
+/* Hero Section Styling Start */
+.hero{
+    background-image: url(/Styles/React-icon.svg.png);
+    min-height: 100vh;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: skyblue;
+}
+.hero-h1{
+    font-size: 100px;
+}
+.hero-para{
+    font-size: 20px;
+}
+/* Hero Section Styling End */
+
+/* React Section Styling Start */
+.react-content{
+    display: flex;
+    align-items:center;
+    justify-content:center ;
+    flex-wrap: wrap;
+    width: 100%;   
+}
+.react-img{
+    width: 50%;
+}
+.react-para{
+    width: 50%;
+    padding-left: 40px;
+}
+.react-para p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: large;
+    color: red;
+}
+.react-btn{
+    margin-top: 10px;
+    text-align: center;  
+    text-decoration: none;
+}
+.react-btn button{
+    color: #61DAFB;
+    background-color: #222222 ;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 16px;   
+    padding: 10px;
+}
+/* React Section Styling End */
+
+/* Main Section End */
+
+/* Footer Styling Start */
+.footer{
+    margin-top: 10px;
+}
+footer li{
+    padding-bottom: 15px;
+}
+.footer-div{
+    background-color: #222222;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center ;
+    flex-wrap: wrap;
+}
+.footer-navbar{
+    width: 20%;
+    display: flex;
+    align-items:center;
+    justify-content:center ;
+}
+.footer-image{
+    width: 60%;
+    text-align: center;
+}
+.footer-channels{
+    width: 20%;
+    display: flex;
+    align-items:center;
+    justify-content:center ;
+}
+/* Footer Styling End */
+
